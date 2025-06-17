@@ -3,7 +3,7 @@ export default function Mocidade() {
     <main className="max-w-5xl mx-auto pt-32 px-4 pb-12">
       <div className="flex flex-wrap gap-6 items-center">
         <img
-          src="/img/KADOSH.png" 
+          src="/img/GERAÇÃO ELEITA BLACK.png" 
           alt="Ministério de Jovens"
           className="w-52 h-52 object-cover rounded-lg shadow-md"
         />

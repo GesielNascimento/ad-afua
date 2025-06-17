@@ -3,7 +3,7 @@ export default function GeracaoTeen() {
     <main className="max-w-5xl mx-auto pt-32 px-4 pb-12">
       <div className="flex flex-wrap gap-6 items-center">
         <img
-          src="/img/GERAÇÃO ELEITA BLACK.png"
+          src="/img/KADOSH.png"
           alt="Geração Teen"
           className="w-52 h-52 object-cover rounded-lg shadow-md"
         />
