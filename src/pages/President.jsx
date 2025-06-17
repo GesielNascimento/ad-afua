@@ -11,7 +11,7 @@ export default function President() {
 
         {/* Conteúdo textual ao lado e fluindo abaixo */}
         <div className="flex-1 min-w-[250px]">
-          <h1 className="text-3xl font-bold text-green-800 mb-4">Pr. João da Silva</h1>
+          <h1 className="text-3xl font-bold text-green-800 mb-4">Pr. Isaías Bentes de Sales</h1>
           <p className="text-gray-700 leading-relaxed text-justify">
             O <strong>Pastor Isaías Bentes</strong> é o <strong>presidente da Igreja Evangélica Assembleia de Deus em Afuá</strong> desde 2020. Com mais 
             de 40 anos de ministério, tem liderado com dedicação, amor à Palavra e zelo pelas famílias. Graduado em Teologia 

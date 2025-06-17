@@ -78,7 +78,7 @@ useEffect(() => {
             <img src="/img/logo.png" alt="Logo" className="w-full h-full object-cover" />
           </div>
 
-          <span className="text-lg font-bold">Igreja do Avivamento</span>
+          <span className="text-lg font-bold">AD Afuá</span>
         </div>
 
         {/* Menu desktop */}

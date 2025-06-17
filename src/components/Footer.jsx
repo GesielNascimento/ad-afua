@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-4 gap-8 text-sm">
         {/* Coluna 1 */}
         <div>
-          <h3 className="text-lg font-bold mb-3">Igreja do Avivamento</h3>
+          <h3 className="text-lg font-bold mb-3">AD Afuá</h3>
           <p className="mb-4">
             Uma igreja comprometida com a palavra de Deus e a transformação de vidas através do amor de Cristo.
           </p>
@@ -18,9 +18,9 @@ export default function Footer() {
         {/* Coluna 2 */}
         <div>
           <h3 className="text-lg font-bold mb-3">Contato</h3>
-          <p>📍 Av. Cora de Carvalho, nº 1648<br />Centro - Macapá/AP</p>
+          <p>📍 Trav 27 de Dezembro<br />Centro - Afuá/PA</p>
           <p className="mt-2">📞 (96) 0000-0000</p>
-          <p>✉️ contato@igrejaavivamento.com.br</p>
+          <p>✉️ contato@adafua.com.br</p>
         </div>
 
         {/* Coluna 3 */}
@@ -44,7 +44,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/20 mt-10 pt-4 text-center text-sm text-white/90">
-        © 2025 Igreja do Avivamento. Todos os direitos reservados.
+        © 2025 AD Afuá. Todos os direitos reservados.
       </div>
     </footer>
   );
