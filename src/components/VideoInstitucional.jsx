@@ -12,7 +12,7 @@ export default function VideoInstitucional() {
         <div className="relative w-full aspect-video rounded-lg overflow-hidden shadow-lg mx-auto">
           <iframe
             className="w-full h-full"
-            src="https://www.youtube.com/watch?v=zXCtvypnIB4&t=5s"
+            src="https://www.youtube.com/embed/zXCtvypnIB4?si=oxFs8RLEo5nfaVo8"
             title="Vídeo Institucional"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
