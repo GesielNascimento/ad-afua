@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const slides = [
   {
-    title: "Bem-vindos à Igreja do Avivamento",
+    title: "Bem-vindos à Assembleia de Deus em Afuá",
     subtitle:
       "Um lugar onde vidas são transformadas pelo poder de Deus. Venha fazer parte da nossa família!",
     button: "Conheça nossos cultos",
@@ -33,47 +33,46 @@ export default function HeroBanner() {
   }, []);
 
   return (
-    <section className="relative h-[60vh] text-white flex items-center justify-center text-center">
-      <div className="absolute inset-0 bg-gradient-to-r from-green-900/80 to-green-600/90 z-10" />
-      <img
-        src="/img/ad.png"
-        alt="Igreja"
-        className="absolute inset-0 w-full h-full object-cover opacity-40 z-0"
-      />
+<section className="relative h-[350px] text-white flex items-center justify-center text-center overflow-hidden">
+  {/* Fundo com imagem e gradiente visível abaixo da navbar */}
+  <div
+    className="absolute top-[80px] left-0 right-0 bottom-0 bg-no-repeat bg-top bg-[length:auto_100%] z-0"
+    style={{
+      backgroundImage:
+        "linear-gradient(to right, rgba(0, 64, 0, 0.8), rgba(22, 163, 74, 0.9)), url('/img/ad.png')"
+    }}
+  ></div>
 
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={current}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          transition={{ duration: 0.8 }}
-          className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-4"
-        >
-          <h1 className="text-2xl md:text-4xl font-extrabold drop-shadow mb-3">
-            {slides[current].title}
-            </h1>
-            <p className="text-base md:text-lg max-w-md mb-5 drop-shadow">
-            {slides[current].subtitle}
-            </p>
-            <button className="bg-white text-green-800 px-5 py-2 rounded-full text-sm font-semibold shadow hover:bg-gray-100 transition">
-            {slides[current].button}
-            </button>
-        </motion.div>
-      </AnimatePresence>
+  {/* Conteúdo central com padding correspondente à altura da navbar */}
+  <div className="relative z-20 flex flex-col items-center justify-center text-center px-4 pt-[80px]">
+    <h1 className="text-xl md:text-3xl font-extrabold drop-shadow mb-2">
+      {slides[current].title}
+    </h1>
+    <p className="text-sm md:text-base max-w-md mb-4 drop-shadow">
+      {slides[current].subtitle}
+    </p>
+    <button className="bg-white text-green-800 px-5 py-2 rounded-full text-sm font-semibold shadow hover:bg-gray-100 transition">
+      {slides[current].button}
+    </button>
+  </div>
 
-      {/* Dots */}
-      <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex gap-3 z-30">
-        {slides.map((_, idx) => (
-          <button
-            key={idx}
-            onClick={() => setCurrent(idx)}
-            className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              current === idx ? "bg-white" : "bg-white/50"
-            }`}
-          ></button>
-        ))}
-      </div>
-    </section>
+  {/* Dots do carrossel */}
+  <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-3 z-30">
+    {slides.map((_, idx) => (
+      <button
+        key={idx}
+        onClick={() => setCurrent(idx)}
+        className={`w-3 h-3 rounded-full transition-all duration-300 ${
+          current === idx ? "bg-white" : "bg-white/50"
+        }`}
+      ></button>
+    ))}
+  </div>
+</section>
+
+
+
+
+
   );
 }
