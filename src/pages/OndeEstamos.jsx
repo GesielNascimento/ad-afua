@@ -19,7 +19,7 @@ export default function OndeEstamos() {
 
       <div className="bg-gray-100 p-6 rounded-lg shadow-sm text-gray-800 space-y-4">
         <p>
-          <strong>Endereço:</strong> Praça da Bíblia, Bairro Capim Marinho – Afuá/PA
+          <strong>Endereço:</strong> Trav 27 de Dezembro - Centro – Afuá/PA
         </p>
         <p>
           <strong>Dias de Cultos:</strong> Terças, Quintas, Sábados e Domingos às 19h

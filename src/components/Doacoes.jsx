@@ -12,14 +12,14 @@ export default function Doacoes() {
 
         <div className="bg-white rounded-xl shadow-lg p-8 max-w-xl mx-auto mb-6">
           <h3 className="text-xl font-semibold text-green-800 mb-2">📌 Pix da Igreja:</h3>
-          <p className="text-lg font-mono text-gray-800 mb-4">igreja.avivamento@pix.com</p>
+          <p className="text-lg font-mono text-gray-800 mb-4">adafua@pix.com</p>
 
           <h3 className="text-xl font-semibold text-green-800 mb-2">🏦 Conta Bancária:</h3>
           <p className="text-gray-700">
             Banco do Brasil<br />
             Agência: 1234-5<br />
             Conta Corrente: 67890-1<br />
-            Igreja do Avivamento
+            Assembleia de Deus em Afuá
           </p>
         </div>
 

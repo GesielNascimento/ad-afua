@@ -7,9 +7,26 @@ const nomesDosMeses = [
 ];
 
 const eventos = [
-  { data: "2025-06-23", titulo: "Culto de Celebração", descricao: "Domingo às 19h no Templo Central." },
-  { data: "2025-06-28", titulo: "Vigília de Avivamento", descricao: "Sexta às 22h na Congregação Monte Sião." }
+  {
+    data: "2025-06-23",
+    titulo: "Culto de Celebração",
+    hora: "19h",
+    local: "Templo Central",
+    congregacao: "Sede",
+    descricao: "Celebração do mês com louvor e ministração da Palavra.",
+    cartaz: "/img/eventos/virada.png"
+  },
+  {
+    data: "2025-06-28",
+    titulo: "Vigília de Avivamento",
+    hora: "22h",
+    local: "Cong. Monte Sião",
+    congregacao: "Monte Sião",
+    descricao: "Uma noite de clamor, louvor e busca pelo poder de Deus.",
+    cartaz: "/img/eventos/consagra.jpg"
+  }
 ];
+
 
 export default function Agenda() {
   const [dataAtual, setDataAtual] = useState(new Date());
@@ -89,19 +106,40 @@ export default function Agenda() {
       </div>
 
       {eventoSelecionado && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white rounded-lg p-6 shadow-xl max-w-md w-full text-left">
-            <h3 className="text-xl font-bold mb-2 text-green-800">{eventoSelecionado.titulo}</h3>
-            <p className="mb-4">{eventoSelecionado.descricao}</p>
-            <button
-              onClick={() => setEventoSelecionado(null)}
-              className="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
-            >
-              Fechar
-            </button>
-          </div>
-        </div>
-      )}
+  <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 px-4">
+    <div className="bg-white rounded-lg p-6 shadow-xl w-full max-w-[90vw] sm:max-w-[600px] text-left">
+      <h3 className="text-2xl font-bold mb-3 text-green-800">{eventoSelecionado.titulo}</h3>
+      
+      <div className="space-y-1 mb-4 text-sm text-gray-700">
+        <p><strong>📅 Data:</strong> {eventoSelecionado.data}</p>
+        <p><strong>🕖 Horário:</strong> {eventoSelecionado.hora}</p>
+        <p><strong>📍 Local:</strong> {eventoSelecionado.local}</p>
+        <p><strong>🏠 Congregação:</strong> {eventoSelecionado.congregacao}</p>
+        <p><strong>📝 Descrição:</strong> {eventoSelecionado.descricao}</p>
+      </div>
+
+      {eventoSelecionado.cartaz && (
+  <div className="w-full mt-4">
+    <img
+      src={eventoSelecionado.cartaz}
+      alt="Cartaz do evento"
+      className="max-h-[50vh] w-full h-auto object-contain rounded-md mx-auto"
+    />
+  </div>
+)}
+
+      <div className="flex justify-end">
+        <button
+          onClick={() => setEventoSelecionado(null)}
+          className="bg-green-700 text-white px-4 py-2 rounded hover:bg-green-800"
+        >
+          Fechar
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
     </section>
   );
 }
