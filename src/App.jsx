@@ -40,6 +40,7 @@ export default function App() {
         <Route path="/ministerios/geracao-teen" element={<GeracaoTeen />} />
         <Route path="/ministerios/kids" element={<Kids />} />
         <Route path="/politicadeprivacidade" element={<PoliticaDePrivacidade />} />
+        <Route path="/excluir-conta" element={<ExcluirConta />} />
         {/* outras rotas podem vir aqui depois */}
       </Routes>
       <Footer />
