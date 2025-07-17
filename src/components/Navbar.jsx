@@ -48,7 +48,8 @@ useEffect(() => {
     { label: "Quem Somos", href: "/sobre-nos/quem-somos" },
     { label: "Nossa Missão", href: "/sobre-nos/nossa-missao" },
     { label: "Nossa Visão", href: "/sobre-nos/nossa-visao" },
-    { label: "Valores", href: "/sobre-nos/valores" }
+    { label: "Valores", href: "/sobre-nos/valores" },
+    { label: "Política de Privacidade", href: "/politicadeprivacidade" },
   ]
 },
     {

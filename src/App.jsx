@@ -16,6 +16,8 @@ import Contato from "./pages/Contato";
 import Mocidade from "./pages/Mocidade";
 import GeracaoTeen from "./pages/GeracaoTeen";
 import Kids from "./pages/Kids";
+import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
+
 
 export default function App() {
   return (
@@ -37,6 +39,7 @@ export default function App() {
         <Route path="/ministerios/mocidade" element={<Mocidade />} />
         <Route path="/ministerios/geracao-teen" element={<GeracaoTeen />} />
         <Route path="/ministerios/kids" element={<Kids />} />
+        <Route path="/politicadeprivacidade" element={<PoliticaDePrivacidade />} />
         {/* outras rotas podem vir aqui depois */}
       </Routes>
       <Footer />

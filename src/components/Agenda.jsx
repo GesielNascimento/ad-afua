@@ -8,7 +8,7 @@ const nomesDosMeses = [
 
 const eventos = [
   {
-    data: "2025-06-23",
+    data: "2025-07-23",
     titulo: "Culto de Celebração",
     hora: "19h",
     local: "Templo Central",
@@ -17,13 +17,13 @@ const eventos = [
     cartaz: "/img/eventos/virada.png"
   },
   {
-    data: "2025-06-28",
-    titulo: "Vigília de Avivamento",
+    data: "2025-07-28",
+    titulo: "Santa Ceia",
     hora: "22h",
     local: "Cong. Monte Sião",
     congregacao: "Monte Sião",
     descricao: "Uma noite de clamor, louvor e busca pelo poder de Deus.",
-    cartaz: "/img/eventos/consagra.jpg"
+    cartaz: "/img/eventos/consagra.png"
   }
 ];
 
