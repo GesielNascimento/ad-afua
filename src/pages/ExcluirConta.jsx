@@ -1,4 +1,4 @@
-// pages/excluir-conta.jsx
+// pages/ExcluirConta.jsx
 export default function ExcluirConta() {
   return (
     <div className="min-h-screen bg-white px-6 py-12 text-gray-800">

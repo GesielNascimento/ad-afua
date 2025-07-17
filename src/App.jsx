@@ -17,6 +17,7 @@ import Mocidade from "./pages/Mocidade";
 import GeracaoTeen from "./pages/GeracaoTeen";
 import Kids from "./pages/Kids";
 import PoliticaDePrivacidade from "./pages/PoliticaDePrivacidade";
+import ExcluirConta from "./pages/ExcluirConta";
 
 
 export default function App() {
