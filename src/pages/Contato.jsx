@@ -13,12 +13,12 @@ export default function Contato() {
 
         <div>
           <h2 className="text-xl font-semibold text-green-700 mb-2">📧 E-mail</h2>
-          <p>contato@igrejaavivamento.com</p>
+          <p>adafua@hotmail.com</p>
         </div>
 
         <div>
           <h2 className="text-xl font-semibold text-green-700 mb-2">📍 Endereço</h2>
-          <p>Rua Central, nº 100 - Bairro Capim Marinho, Afuá - PA</p>
+          <p>Trav 27 de Dezembro Nº 130 - Bairro Centro, Afuá - PA</p>
         </div>
 
         <div>

@@ -8,22 +8,49 @@ const nomesDosMeses = [
 
 const eventos = [
   {
-    data: "2025-07-23",
-    titulo: "Culto de Celebração",
+    data: "2025-09-06",
+    titulo: "Ceia do Senhor",
     hora: "19h",
     local: "Templo Central",
     congregacao: "Sede",
-    descricao: "Celebração do mês com louvor e ministração da Palavra.",
-    cartaz: "/img/eventos/virada.png"
+    descricao: "Celebração da Ceia do Senhor do Mês de Setembro.",
+    cartaz: "/img/eventos/ceia.png"
   },
   {
-    data: "2025-07-28",
-    titulo: "Santa Ceia",
-    hora: "22h",
-    local: "Cong. Monte Sião",
-    congregacao: "Monte Sião",
-    descricao: "Uma noite de clamor, louvor e busca pelo poder de Deus.",
-    cartaz: "/img/eventos/consagra.png"
+    data: "2025-09-21",
+    titulo: "Reunião do Ministério",
+    hora: "14h",
+    local: "Templo Central",
+    congregacao: "Sede",
+    descricao: "Reunião Geral de Obreiros - Setembro",
+    cartaz: "/img/eventos/reuniao.png"
+  },
+  {
+    data: "2025-09-27",
+    titulo: "Congresso Unificado",
+    hora: "19h",
+    local: "Rio Panacalhau",
+    congregacao: "Nova Jerusalém",
+    descricao: "Aniversário dos Departamentos e da COngregação.",
+    cartaz: "/img/eventos/unificado.png"
+  },
+    {
+    data: "2025-09-28",
+    titulo: "Congresso Unificado",
+    hora: "19h",
+    local: "Rio Panacalhau",
+    congregacao: "Nova Jerusalém",
+    descricao: "Aniversário dos Departamentos e da COngregação.",
+    cartaz: "/img/eventos/unificado.png"
+  },
+    {
+    data: "2025-09-30",
+    titulo: "Culto de Arrecadação",
+    hora: "19h30",
+    local: "Bairro Capim Marinho",
+    congregacao: "Cong. Rio de Água Viva",
+    descricao: "Culto de Arrecadação em prol da Construção da COngregação.",
+    cartaz: "/img/eventos/arrecadacao.png"
   }
 ];
 

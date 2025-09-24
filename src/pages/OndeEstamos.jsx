@@ -2,7 +2,7 @@ export default function OndeEstamos() {
   return (
     <main className="max-w-5xl mx-auto pt-32 px-4 pb-16">
       <h1 className="text-3xl md:text-4xl font-bold text-green-800 mb-6 text-center">
-        Como chegar até a Igreja do Avivamento
+        Como chegar até a Assembleia de Deus em Afuá
       </h1>
 
       <div className="rounded-lg shadow-md overflow-hidden mb-8">
@@ -19,10 +19,10 @@ export default function OndeEstamos() {
 
       <div className="bg-gray-100 p-6 rounded-lg shadow-sm text-gray-800 space-y-4">
         <p>
-          <strong>Endereço:</strong> Trav 27 de Dezembro - Centro – Afuá/PA
+          <strong>Endereço:</strong> Trav 27 de Dezembro Nº 130 - Centro – Afuá/PA
         </p>
         <p>
-          <strong>Dias de Cultos:</strong> Terças, Quintas, Sábados e Domingos às 19h
+          <strong>Dias de Cultos:</strong> Quartas, Sextas e Domingos
         </p>
         <p>
           <strong>WhatsApp:</strong> (96) 99207-8175

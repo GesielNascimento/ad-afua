@@ -4,17 +4,17 @@ export default function President() {
       <div className="flex flex-wrap gap-6">
         {/* Imagem à esquerda */}
         <img
-          src="/img/ISAIAS BENTES.png"
-          alt="Foto do Pr. João da Silva"
+          src="/img/moises.png"
+          alt="Foto do Pr. Moisés Negrão"
           className="w-48 h-48 object-cover rounded-full shadow flex-shrink-0"
         />
 
         {/* Conteúdo textual ao lado e fluindo abaixo */}
         <div className="flex-1 min-w-[250px]">
-          <h1 className="text-3xl font-bold text-green-800 mb-4">Pr. Isaías Bentes de Sales</h1>
+          <h1 className="text-3xl font-bold text-green-800 mb-4">Pr. Moisés Negrão & Irª Oildes Negrão</h1>
           <p className="text-gray-700 leading-relaxed text-justify">
-            O <strong>Pastor Isaías Bentes</strong> é o <strong>presidente da Igreja Evangélica Assembleia de Deus em Afuá</strong> desde 2020. Com mais 
-            de 40 anos de ministério, tem liderado com dedicação, amor à Palavra e zelo pelas famílias. Graduado em Teologia 
+            O <strong>Pastor Moisés Negrão</strong> é o <strong>presidente da Igreja Evangélica Assembleia de Deus em Afuá</strong> desde 24 de agosto de 2025. Com mais 
+            de 30 anos de ministério, tem liderado com dedicação, amor à Palavra e zelo pelas famílias. Graduado em Teologia 
             e com pós-graduação em Liderança Cristã, é conhecido por suas mensagens inspiradoras e por seu coração pastoral.
             <br /><br />
             Ao longo dos anos, tornou-se referência entre os líderes da cidade, promovendo ações sociais, evangelismo
