@@ -25,6 +25,15 @@ const eventos = [
     descricao: "Reunião Geral de Obreiros - Setembro",
     cartaz: "/img/eventos/reuniao.png"
   },
+    {
+    data: "2025-09-24",
+    titulo: "Culto de Testemunhos",
+    hora: "19h30",
+    local: "Templo Central",
+    congregacao: "Sede",
+    descricao: "Culto de Testemunhos no Templo Central",
+    cartaz: "/img/eventos/teste.png"
+  },
   {
     data: "2025-09-27",
     titulo: "Congresso Unificado",
