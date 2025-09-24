@@ -32,7 +32,7 @@ const eventos = [
     local: "Templo Central",
     congregacao: "Sede",
     descricao: "Culto de Testemunhos no Templo Central",
-    cartaz: "/img/eventos/teste.png"
+    cartaz: "/img/eventos/test.png"
   },
   {
     data: "2025-09-27",
